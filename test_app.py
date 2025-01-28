@@ -1,4 +1,4 @@
-from app import add,subtract
+from app import add,subtract,divide
 
 def test_add():
     assert add(1, 2) == 3
@@ -10,3 +10,4 @@ def test_subtract():
 def test_divide():
     assert divide(1, 2) == 0.5
     assert divide(3, 2) == 1.5
+    
